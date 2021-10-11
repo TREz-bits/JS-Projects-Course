@@ -15,8 +15,55 @@
     </header>
     <main>
         <div>
-            <form action="">
-                <label for=""></label>
+            <h2>Calcula el area y perimetro de un cuadrado</h2>
+            <form>
+                <label for="InputCuadrado">Escribe cuando mide el lado de tu cuadrado</label>
+                <input id="InputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+            </form>
+        </div>
+        <div>
+            <h2>Calcula el area y perimetro de un triangulo</h2>
+            <form>
+                <label for="InputLado1">Escribe cuando mide uno de los lados de tu triangulo</label>
+                <input id="InputLado1" type="number">
+                
+                <label for="InputLado2">Escribe cuando mide uno de los lados de tu triangulo</label>
+                <input id="InputLado2" type="number">
+                
+                <label for="InputBase">Escribe cuando mide la base de tu triangulo</label>
+                <input id="InputBase" type="number">
+                
+                <label for="InputAltura">Escribe cuando mide la altura de tu triangulo</label>
+                <input id="InputAltura" type="number">
+                
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perimetro</button>
+                <button type="button" onclick="calcularAreaTriangulo()">Calcular el area</button>
+            </form>
+        </div>
+        <div>
+            <h2>Calcula el area y perimetro de un circulo</h2>
+            <form>
+                <label for="InputCirculo">Escribe cuando mide el radio de tu circulo</label>
+                <input id="InputCirculo" type="number">
+                <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perimetro</button>
+                <button type="button" onclick="calcularAreaCirculo()">Calcular el area</button>
+            </form>
+        </div>
+        <div>
+            <h2>Calcula la altura de un triangulo Isoceles o Equilatero</h2>
+            <form>
+                <label for="Lado1">Escribe cuando mide uno de los lados de tu triangulo</label>
+                <input id="Lado1" type="number">
+                
+                <label for="Lado2">Escribe cuando mide uno de los lados de tu triangulo</label>
+                <input id="Lado2" type="number">
+                
+                <label for="Base">Escribe cuando mide la base de tu triangulo</label>
+                <input id="Base" type="number">
+                                
+                <button type="button" onclick="calcularAlturaTriangulo()">Calcular la altura</button>
             </form>
         </div>
     </main>
